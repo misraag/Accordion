@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.accordion {
+    width: 60vw;
+}
+
+.dataitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    cursor: pointer;
+    background-color: rgb(89, 215, 89);
+    margin: 10px auto;
+    transition: ease;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.plus {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ans {
+    padding: 15px;
+    text-align: left;
+    background-color: cyan;
+    /* width: 100%; */
+    border-radius: 10px;
+}
